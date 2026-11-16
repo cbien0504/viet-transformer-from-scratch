@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dữ liệu tải về và các file sinh ra khi chạy (tạo lại được bằng scripts/)
+data/*.txt
+data/*.npz
+data/*.model
+data/*.vocab
+checkpoints/
+runs/
